@@ -1,0 +1,48 @@
+.secondnavbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 98.93vw;
+    height: 8vh;
+    box-shadow: 0px 1px 38px 0px black;
+    background-color: white;
+    /* position: absolute; */
+}
+.empty1new{
+    width: 6%;
+    height: 100%;
+}
+.empty2new{
+    width: 1%;
+    height: 40%;
+    border-right: 2px solid black;
+}
+.empty3new{
+    width: 49%;
+    height: 100%;
+}
+.empty4new{
+width: 4%;
+height: 100%;
+}
+.buynew{
+    width: 10%;
+    height: 65%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #e54b42;
+    color: white;
+}
+.buynew:hover{
+    cursor: pointer;
+    opacity: 0.8;
+}
+.datanew{
+    width: 10%;
+    height: 100%;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

@@ -1,0 +1,41 @@
+.card{
+    width: 20vw;
+    height: 80vh;
+    display: flexbox;
+    background-color: white;
+}
+.card-img-top{
+    height: 30vh;
+    width: 20vw;
+}
+.card-body{
+    height: 30vh;
+    width: 20vw;
+    display: grid;   
+}
+.card-title{
+    height: 20%;
+    font-size: 2em;
+    font-weight: bold;
+}
+.card-text{
+    height: 60%;
+    font-weight: lighter;
+}
+.bdiv{
+    height: 120%;
+    width: 50%;
+    margin: 0 0 0 25%;
+    text-decoration: none;
+    color: black;
+    color: white;
+    font-weight: bolder;
+    background-color: orange;
+    display: flex;
+    font-size: 1.2em;
+    align-items: center;
+    justify-content: center;
+}
+.bdiv:hover{
+    cursor: pointer;
+}

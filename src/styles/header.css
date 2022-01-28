@@ -1,0 +1,253 @@
+.header{
+    width: 98.93vw;
+    height: 100vh;
+    position: relative;
+    /* display: flex; */
+}
+.img:hover{
+    cursor: pointer;
+}
+.data:hover{
+    cursor: pointer;
+}
+.navbar{
+    width: 98.93vw;
+    height: 10%;
+    position: absolute;
+    display: flex;
+}
+.empty1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 5%;
+}
+.icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 10%;
+    color: white;
+}
+.data{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 9%;
+    font-size: 1.1em;
+    color: white;
+}
+.option{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20%;
+}
+.empty2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 33%;
+}
+.empty3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 4%;
+}
+img{
+    width: 100%;
+}
+.bodyinsimg{
+    display: flexbox;
+    width: 32%;
+    height: 77%;
+    margin: 8% 5% 0% 64%;
+    background-color: white;
+    position: absolute;
+}
+.heading{
+    width: 100%;
+    align-items: center;
+    height: 12%;
+    align-items: center;
+    display: flex;
+    font-size: 2.5em;
+    
+}
+b{
+    margin: 0 0 0 7%;
+}
+.line{
+    width: 100%;
+    height: 6%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.real{
+    width: 83%;
+    height: 0.5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #0d0e0e;
+}
+.money{
+    width: 100%;
+    height: 12%;
+    font-size: 2.5em;
+    align-items: flex-start;
+    display: flex;
+}
+.material{
+    width: 100%;
+    height: 12%;
+    align-items:flex-end;
+    display: flex; 
+}
+.matins{
+    margin: 0 0 0 7%;
+    display: flex;
+    justify-content: flex-end;
+}
+.list{
+    width: 100%;
+    height: 35%;
+    align-items: center;
+    display: flexbox;
+}
+.buy{
+    width: 100%;
+    height: 23%;
+    align-items: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.buyinside{
+    width: 85%;
+    background-color: #e54b42;
+    height: 35%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+.buyinside:hover{
+    opacity: 0.8;
+    cursor: pointer;
+}
+.eachline{
+    display: flex;
+    width: 100%;
+    height: 20%;
+}
+.tickicon{
+    width: 10%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.tickiconimg{
+    width: 25%;
+    height: 30%;
+}
+.listdata{
+    width: 90%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items:center;
+    margin: 0% 0% 0% 3%;
+}
+.inside{
+    width: 29%;
+    display: flex;
+    justify-content: flex-start;
+}
+.insideempty{
+    width: 71%;
+}
+@media only screen and (max-width:700px){
+    .navbar{
+        height: 7%;
+    }
+    .icon{
+        width: 8%;
+    }
+    *{
+        font-size: 0.95em;
+    }
+}
+@media only screen and (max-width:550px){
+    .navbar{
+        height: 5%;
+    }
+    .icon{
+        width: 9%;
+    }
+    *{
+        font-size: 0.80em;
+    }
+}
+@media only screen and (min-width:801px){
+    .bodyinsimg2{
+        display: none;
+    }
+}
+@media only screen and (max-width:1300px){
+    .bodyinsimg{
+        height: 65%;
+        width: 30%;
+    }
+    *{
+        font-size: 0.96em;
+    }
+}
+@media only screen and (max-width:1100px){
+    .bodyinsimg{
+        height: 60%;
+        width: 28%;
+    }
+    *{
+        font-size: 0.95em;
+    }
+}
+@media only screen and (max-width:1000px){
+    .bodyinsimg{
+        height: 55%;
+        width: 26%;
+    }
+    *{
+        font-size: 0.92em;
+    }
+}
+@media only screen and (max-width:999px){
+    .bodyinsimg{
+        height: 48%;
+        width: 24%;
+    }
+    *{
+        font-size: 0.91em;
+    }
+}
+@media only screen and (max-width:800px) {
+    *{
+        font-size: 0.91em;
+    }
+    .bodyinsimg{
+        display: none;
+    }
+    .tickiconimg{
+        width: 15%;
+        height: 25%;
+    }
+    .bodyinsimg2{
+        display: flexbox;
+        width: 100%;
+        height: 50%;
+        background-color: white;
+    }
+}
